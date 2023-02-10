@@ -177,8 +177,9 @@
                 </div>
                 <div class="row real-estate-details">
                     <div class="col-lg-8">
-                        <div class="text-end mt-4">
+                        <div class="text-end mt-4 d-flex align-items-center justify-content-between">
                             <h1 class="blue-color"><span class="english-font">420,00</span> دولار</h1>
+                            <p class="english-font m-0 p-1">25 <i class="fa fa-eye"></i></p>
                         </div>
                         <ul class="property-main-features bg-light list-unstyled d-flex justify-content-between flex-wrap p-sm-5 p-lg-4 mt-4">
                             <li>رقم التواصل <span class="english-font d-block">1450</span></li>
@@ -237,9 +238,35 @@
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="email">البريد الالكتروني</label>
-                                    <input type="email" id="email" class="form-control ms-2 rounded-0 p-3" placeholder="ادخل رقم الهاتف" required>
+                                    <input type="email" id="email" class="form-control ms-2 rounded-0 p-3" placeholder="ادخل البريد الالكتروني" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="description">وصف المشكلة</label>
+                                    <textarea name="description" class="form-control" id="description" placeholder="اكتب الوصف هنا"></textarea>
                                 </div>
                                 <button class="btn btn-primary rounded-0 px-5 py-3 mt-4 blue-background-color d-flex align-items-center w-100 text-center justify-content-center">إستعلام <i class="fa fa-search me-2"></i></button>
+                            </form>
+                        </div>
+                        <div class="box bg-light p-4 mt-4">
+                            <h5 class="mb-4"><i class="fa fa-warning text-danger"></i> الإبلاغ عن العقار</h5>
+                            <form action="#" method="POST">
+                                <div class="form-group mb-3">
+                                    <label for="name1">الاسم</label>
+                                    <input type="text" id="name1" class="form-control ms-2 rounded-0 p-3" placeholder="جون دوي" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="phone1">الهاتف</label>
+                                    <input type="tel" id="phone1" class="form-control ms-2 rounded-0 p-3" placeholder="ادخل رقم الهاتف" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="email1">البريد الالكتروني</label>
+                                    <input type="email" id="email1" class="form-control ms-2 rounded-0 p-3" placeholder="ادخل البريد الالكتروني" required>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="description">وصف المشكلة</label>
+                                    <textarea name="description" class="form-control" id="description" placeholder="اكتب الوصف هنا"></textarea>
+                                </div>
+                                <button class="btn btn-danger rounded-0 px-5 py-3 mt-4 d-flex align-items-center w-100 text-center justify-content-center">الإبلاغ <i class="fa fa-warning text-white me-2"></i></button>
                             </form>
                         </div>
                     </div>

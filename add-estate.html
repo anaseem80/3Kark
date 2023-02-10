@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+    <html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/droid-arabic-kufi" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/libraries/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/libraries/bootstrap.min.css">
+        <link rel="stylesheet" href="css/libraries/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/libraries/owl.carousel.css">
+        <style>
+            body{
+                background-color: unset !important;
+            }
+            swiper-container {
+              width: 100%;
+              height: 100%;
+            }
+        
+            swiper-slide {
+              text-align: center;
+              font-size: 18px;
+              background: #fff;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+        
+            swiper-slide img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+        
+        
+            swiper-container {
+              width: 100%;
+              height: 300px;
+              margin-left: auto;
+              margin-right: auto;
+            }
+        
+            swiper-slide {
+              background-size: cover;
+              background-position: center;
+            }
+        
+            .mySwiper {
+              height: 500px;
+              width: 100%;
+            }
+        
+            .mySwiper2 {
+              height: 20%;
+              box-sizing: border-box;
+              padding: 10px 0;
+            }
+        
+            .mySwiper2 swiper-slide {
+              width: 25%;
+              height: auto;
+              opacity: 0.4;
+            }
+        
+            .mySwiper2 .swiper-slide-thumb-active {
+              opacity: 1;
+            }
+        
+            .mySwiper2 swiper-slide img, swiper-slide a {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+            .property-features {
+                display: block;
+                columns: 3;
+                -webkit-columns: 3;
+                -moz-columns: 3;
+            }
+        </style>
+        <title>عقارك</title>
+    </head>
+    <body>
+        <div class="blue-background-color bar">
+            <div class="container">
+                <div class="row position-relative">
+                    <div class="col-lg-6 d-flex flex-wrap justify-content-sm-center">
+                        <div class="d-flex align-items-center english-font">
+                            <i class="fa fa-phone ms-2"></i>
+                            (123) 123-456
+                        </div>
+                        <div class="d-flex align-items-center ms-3">
+                            <i class="fa fa-envelope mx-2"></i>
+                            <a href="mailto:office@example.com" class="text-decoration-none english-font">office@example.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 social-links text-end d-flex justify-content-end">
+                        <a href="#" class="me-2"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="me-2"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="me-2"><i class="fa fa-google"></i></a>
+                        <a href="#" class="me-2"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-lg py-3" id="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="130"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-xl-2 p-0">
+                  <li class="nav-item me-2">
+                    <a class="nav-link rounded p-3 active" aria-current="page" href="#">الرئيسية</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link rounded p-3 active" aria-current="page" href="#">العقارات</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link rounded p-3 active" aria-current="page" href="#">العقارات</a>
+                  </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="text-black text-decoration-none nav-link rounded text-dark">تسجيل دخول <i class="fa fa-user"></i></a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <div class="real-estate-page-title p-lg-5 p-5 mb-5">
+            <div class="shadow position-absolute w-100 h-100 top-0 left-0 start-0 end-0"></div>
+            <div class="container position-relative">
+                <div class="row mb-4 align-items-center justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <h1>إضافة عقار</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-content p-lg-5 p-sm-1">
+            <div class="container">
+                <form action="#" method="POST">
+                    <div class="form-group mb-3">
+                        <label for="name">اسم العقار</label>
+                        <input type="text" id="name" class="form-control ms-2 rounded-0 p-3" placeholder="اسم العقار" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="town">اسم المدينة</label>
+                        <input type="text" id="town" class="form-control ms-2 rounded-0 p-3" placeholder="اسم المدينة" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="size">مساحة العقار</label>
+                        <input type="number" id="size" class="form-control ms-2 rounded-0 p-3" placeholder="مساحة العقار" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="price">السعر لكل متر</label>
+                        <input type="number" id="price" class="form-control ms-2 rounded-0 p-3" placeholder="السعر لكل متر" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="description">الوصف</label>
+                        <textarea name="description" class="form-control" id="description" placeholder="اكتب الوصف هنا"></textarea>
+                    </div>
+                    <div class="form-group mb-3 row">
+                        <div class="col-lg-4 mb-3 mb-lg-0">
+                            <label for="type">نوع العقار</label>
+                            <select class="form-control rounded-0 p-3" id="type">
+                                <option value="" disabled selected>المنطقة</option>
+                            </select>     
+                        </div>
+                        <div class="col-lg-4 mb-3 mb-lg-0">
+                            <label for="rent type">مدة الإيجار</label>
+                            <select class="form-control rounded-0 p-3" id="rent type">
+                                <option value="" disabled selected>المنطقة</option>
+                            </select>     
+                        </div>
+                        <div class="col-lg-4 mb-3 mb-lg-0">
+                            <label for="direction">مدة الإيجار</label>
+                            <select class="form-control rounded-0 p-3" id="direction">
+                                <option value="" disabled selected>المنطقة</option>
+                            </select>     
+                        </div>             
+                    </div>
+                    <div class="form-group mb-3 row">
+                        <div class="col-lg-6 mb-3 mb-lg-0">
+                            <label for="type">تحديد عدد الغرف</label>
+                            <select class="form-control rounded-0 p-3" id="type">
+                                <option value="" disabled selected>المنطقة</option>
+                            </select>     
+                        </div>
+                        <div class="col-lg-6 mb-3 mb-lg-0">
+                            <label for="rent type">تحديد عدد الحمامات</label>
+                            <select class="form-control rounded-0 p-3" id="rent type">
+                                <option value="" disabled selected>المنطقة</option>
+                            </select>     
+                        </div>           
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="file">ارفق ملفك الان</label>
+                        <input type="file" id="file" class="form-control ms-2 rounded-0 p-3 english-font" placeholder="ادخل رقم الهاتف" required>
+                    </div>
+                    <button class="btn btn-success rounded-0 px-5 py-3 my-4 d-flex align-items-center w-100 text-center justify-content-center">إضافة</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-top-img">
+                <div class="container">
+                    <div class="row footer-top-style">
+                        <div class="col-lg-4 mb-lg-0 mb-sm-5">
+                            <img src="images/logo_light.svg" width="250" class="mb-3" alt="">
+                            <p class="fs-5">لوريم ابسيوم لوريم ابيسيوم لورم لوريم لوريم </p>
+                            <div class="social-links text-end d-flex">
+                                <a href="#" class="text-light"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="me-2 text-light"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="me-2 text-light"><i class="fa fa-google"></i></a>
+                                <a href="#" class="me-2 text-light"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0 mb-sm-5">
+                            <h3>روابط سريعة</h3>
+                            <span class="heading-divider"></span>
+                            <ul class="links">
+                                <li class="mb-3"><a href="#" class="text-decoration-none text-light">العقارات</a></li>
+                                <li class="mb-3"><a href="#" class="text-decoration-none text-light">العقارات</a></li>
+    
+                                <li class="mb-3"><a href="#" class="text-decoration-none text-light">العقارات</a></li>
+    
+                                <li class="mb-3"><a href="#" class="text-decoration-none text-light">العقارات</a></li>
+    
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 mb-lg-0">
+                            <h3>تواصل معنا</h3>
+                            <span class="heading-divider"></span>
+                            <ul class="links list-unstyled p-0">
+                                <li class="mb-3 english-font"><img src="images/location-sign-svgrepo-com.svg" class="location ms-2" width="15" height="15" alt="">121 King St, Melbourne den 3000, Australia</li>
+                                <li class="mb-3 english-font"><a href="mailto:info@example.com" class="text-decoration-none text-light"> <i class="fa fa-envelope ms-2"></i>info@example.com</a></li>
+                                <li class="mb-3 english-font"><a href="tel:(+123) 596 000" class="text-decoration-none text-light"> <i class="fa fa-phone ms-2"></i>(+123) 596 000</a></li>
+    
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-style">
+                <div class="container">
+                    <div class="row p-3">
+                        <div class="col-12">
+                            <p class="text-center text-light mb-0">جميع الحقوق محفوظة لدي عقارات</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <script src="js/libraries/jquery-3.6.0.min.js"></script>
+        <script src="js/libraries/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js" integrity="sha512-dSI4QnNeaXiNEjX2N8bkb16B7aMu/8SI5/rE6NIa3Hr/HnWUO+EAZpizN2JQJrXuvU7z0HTgpBVk/sfGd0oW+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js" integrity="sha512-k2GFCTbp9rQU412BStrcD/rlwv1PYec9SNrkbQlo6RZCf75l6KcC3UwDY8H5n5hl4v77IDtIPwOk9Dqjs/mMBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/app.js"></script>
+        <script src="js/libraries/bootstrap.min.js"></script>
+        <script src="js/libraries/a1a75d5546.js"></script>
+        <script src="js/libraries/swiper-bundle.min.js"></script>
+    </body>
+</html>
